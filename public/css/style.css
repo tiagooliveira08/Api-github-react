@@ -1,0 +1,68 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.AppContent{
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+}
+.user-info{
+    width: 100%;
+    height: auto;
+}
+.flex-row{
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    align-items:center;
+}
+.search{
+ width: 100%;
+ height: 100px;   
+ margin: 0 auto;
+}
+input{
+    margin-top: 10px;
+    width: 100%;
+    height: 80px;
+    text-align: center;
+    font-size: 28px;
+}
+img {
+    width: 30%;
+    height: auto;
+}
+.img-responsive{
+    width: 50%;
+    height: auto;
+}
+
+li{
+    list-style: none;
+    text-decoration: none;
+}
+.info{
+    margin-left: 20px;
+}
+.title{
+    margin-bottom: 20px;
+    
+}
+
+button{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+}
+button:last-child{
+    margin-left: 20px;
+}
+
+.repos{
+    width: 50%;
+}
+.starred{
+    width: 50%;
+}
